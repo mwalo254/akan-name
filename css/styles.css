@@ -1,0 +1,23 @@
+form{
+  width: 500px;
+  margin:auto;
+  padding: 20px;
+  background: #663366;
+  font-size: 20px;
+  font-family: verdana;
+  color: white;
+}
+input[type =text]{
+  width: 80%;
+  padding: 5px;
+  font-size: 18px;
+}
+input[type =submit]{
+  padding: 5px;
+  font-size: 20px;
+  width: 100px;
+}
+h1{
+  color: blue;
+  text-align: center;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>akan-name</title>
+      <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+      <h1>Akan Name</h1>
+      <h1></h1>
+      <div class="Enter">
+        <script src="js/scripts.js" defer></script>
+         <div class="form">
+           <form id="akanForm" method="POST">
+             <table>
+               <tr>
+                 <td>
+                   Day:
+                 </td>
+                 <td>
+                   <input id="bday-day" type="number" name="bday-day" min="1" max="31" autocomplete="bday-day" autofocus required>
+                 </td>
+               </tr>
+               <tr>
+                <td>
+                  Month:
+                </td>
+                <td>
+                  <input id="bday-month" type="number" name="bday-month" min="1" max="12" autocomplete="bday-month" required>
+                </td>
+                </tr>
+                <tr>
+                  <td>
+                    Year:
+                  </td>
+                  <td>
+                    <input id="bday-year" type="number" name="bday-year" min="1920" max="2019" autocomplete="bday-year" required>
+                  </td>
+                  </tr>
+               <tr>
+                 <td>
+                   Gender:<br>
+                 </td>
+                 <td>
+                   <input type="radio" name="gender" id="male" value="male" checked>Male<br>
+                   <input type="radio" name="gender" id="female" value="female">Female<br>
+                 </td>
+               </tr>
+             </table><br><br><br>
+             <input class="button" type="submit" name="submit" value="submit">
+           </form>
+           
+           <div id="result"><div>
+          </div>
+        </div>
+    </body>
+  </html>
