@@ -1,5 +1,5 @@
 # AKAN NAME
-### It is a modern sysytem that generates Ghana culture Akan names according to day you were born given the Date of Birth
+### This is a modern sysytem that generates Ghana culture Akan names according to day you were born given the Date of Birth
 ## Author
 ## Nick Mwalo
 ## Setup
