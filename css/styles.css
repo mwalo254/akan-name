@@ -32,3 +32,8 @@ h3{
   text-align: center;
   color:purple
 }
+p {
+  color: blueviolet;
+  font-style: inherit
+  font-size: 70px;
+}
